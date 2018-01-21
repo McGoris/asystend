@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "aoa"
+        version     = "0.0.1" >
+
+
+    <name> Asystent Obserwacji Astronomicznych </name>
+    
+    <author href="http://mcastronomia.blogspot.com" email="mcgoris@o2.pl">
+		Copyright McGoris (c)
+	</author>
+	<platform name="android" />
+	
+	
+	<icon src="www/img/ikona.png" platform="android" width="60" height="60" density="mdpi" />
+	<icon src="www/img/ikona.png" density="ldpi" />
+    <icon src="www/img/ikona.png" density="mdpi" />
+    <icon src="www/img/ikona.png" density="hdpi" />
+    <icon src="www/img/ikona.png" density="xhdpi" />
+	
+	<splash src="www/img/ikona.png" width="60" height="60"/>
+	
+	
+	<plugin name="cordova-plugin-device" spec="~1.1.4" />
+	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+	<plugin name="cordova-plugin-inappbrowser" spec="~1.7.0" />
+
+</widget>

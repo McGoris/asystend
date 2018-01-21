@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<script src="js/angular.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/angular-data-storage.js"></script>
+<script src="js/lista.js"></script>
+
+<link rel="stylesheet" href="css/style.css" />
+
+<title> Marcin Goryl 9811 </title>
+</head>
+<body ng-app style="background-color: #000;">
+<div id="top">
+
+<h2 style="text-transform: uppercase; "> Lista {{nazwalisty}} </h2>
+	
+</div>
+
+<div id="container" align="center">
+	<br>
+	<div align="center">
+		<table id="lista_list">
+			<tr><td> Nazwa Listy: </td><td id="nazwa_listy"><input type="text" id="text_input" ng-model="nazwalisty"></td></tr>
+			
+		</table>
+	</div>
+
+	<br>
+		<div align="center">
+			 <button id="button-lista" onclick="sprawdz_czy_jest_nazwa();"><font color="#a00"><b> Dodaj listę </b></font></button>
+			 <br>
+			 <a href = "plan.html"><button id="button-lista" ><font color="#a00"><b> Powrót </b></font></button></a>
+		</div>
+	<br>
+	
+</div>
+
+<div id="stopka">
+
+(C) McGoris Polska
+
+<div>
+
+</body>
+</html>
